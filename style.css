@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    line-height: 1.8;
+}
+
+
+body{
+    font-family: 'jost', sans-serif;
+    height: 100%;
+    background: #000000;
+}
+
+.container{
+    padding-top: 3vw;
+}
+a{
+    color: #cccccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #ff8787;
+}
+
+h1.header{
+    color: #ff8787;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+h2{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+canvas{
+    height: 100vh;
+    z-index: -100000;
+    position: fixed;
+    top: 0px;
+}
+
+.mb{
+    margin-bottom: 3rem;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    transform: scaleX(-1);
+    border-radius: 50%;
+    border: 3px solid #ff6c6c;
+}
+
+
+  .about-section ul.social-media {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 2%;
+  }
+  .about-section ul li{
+    list-style: none;
+    margin-right: 2rem;
+    font-size: 1.9rem;
+    margin-bottom: 0;
+}
+
+.about-section h1{
+    color: #fff;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.about-section div{
+    color: #fff;
+}
+
+.about-section ul li span.new{
+    background-color: #ff8787;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: 3px 6px;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    color: #fff;
+}
+
+.footer{
+    margin-top: 6rem;
+}
+
+.footer p{
+    color: #fff;
+    font-size: 1.4rem;
+}
+
